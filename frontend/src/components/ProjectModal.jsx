@@ -1,4 +1,5 @@
 import { useState } from 'react';
+/** * toast - Function to show notification popups*/
 import { toast } from 'react-toastify';
 import { projectsAPI } from '../services/api';
 import { FiX } from 'react-icons/fi';
