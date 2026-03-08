@@ -49,6 +49,11 @@ JWT_SECRET=your_super_secret_jwt_key
 JWT_EXPIRE=7d
 NODE_ENV=development
 ```
+** if you don't have this module install this
+```bash
+npm install express mongoose bcryptjs jsonwebtoken cors dotenv
+npm install -nodemon
+```
 
 Start MongoDB locally, then run:
 ```bash
