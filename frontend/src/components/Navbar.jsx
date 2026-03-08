@@ -9,7 +9,14 @@ const Navbar = () => {
     logout();
     navigate('/login');
   };
-
+  /**
+  * Tailwind classes used:
+   * - bg-white: White background
+   * - shadow-sm: Subtle shadow below navbar
+   * - max-w-7xl: Maximum width container
+   * - mx-auto: Center horizontally
+   * - flex justify-between: Space items on left and right
+   */
   return (
     <nav className="bg-white shadow-sm">
       {/* Container with max width and padding */}
